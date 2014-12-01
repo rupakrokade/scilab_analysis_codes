@@ -1,5 +1,5 @@
 mode(0);
-filename = "step-data.txt";
+filename = "prbs-data-virtual.txt";
 clf
 
 exec('costfunction.sci');

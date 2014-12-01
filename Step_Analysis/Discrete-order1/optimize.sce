@@ -1,5 +1,5 @@
 mode(0);
-filename = "step-data.txt";
+filename = "prbs-data-virtual.txt";
 clf
 
 exec('costfunction.sci');
@@ -59,7 +59,7 @@ plot(t, y_pred, "k");
 //plot(t, u/10, "r");
 title = 'First Order model with a1 = ';
 title = title+string(a1);
-title = title+', a2='+string(a2);
+title = title+', b1='+string(b1);
 title = title+', delay='+string(delay);
 title = title+', Error='+string(err)+'';
 label(title,4,'time (s)','Change in temperature (K)',4);
